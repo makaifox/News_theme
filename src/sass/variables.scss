@@ -1,0 +1,56 @@
+$color-background: #f8f9fa;
+$color-text: #000;
+$color-accent: blue;
+$color-footer: #f8f8f8;
+$color-footer-text: #777;
+
+$font-family-base: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$font-size-base: 12px;
+
+$font-size-large: 16px;
+$font-size-small: 10px;
+
+$button-background: #c2fbd7;
+$button-color: green;
+$button-border-radius: 100px;
+$button-box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+$button-transition: all 250ms;
+
+$card-min-height: 250px;
+$card-max-height: 350px;
+$card-border-radius: 45px;
+$card-title-font-size: 2.6rem;
+$card-title-color: #215928;
+$card-body-padding: 1rem;
+$card-text-font-size: 1.2rem;
+
+$categories-color: #fff;
+$categories-background-color: #7ab782;
+$categories-li-margin-right: 5px;
+
+$pagination-margin-top: 1rem;
+
+$site-header-background-color: #215928;
+$site-header-padding: 10px 0;
+$site-header-main-button-font-size: 10px;
+
+$navbar-brand-img-max-height: 30px;
+$navbar-link-color: $color-text;
+$navbar-link-margin-right: 10px;
+$navbar-inline-form-control-width: 200px;
+
+$form-control-border-radius: 20px;
+
+$sidebar-margin-top: 2rem;
+
+$footer-background-color: #7ab782;
+$footer-padding: 20px 0;
+$footer-logo-max-width: 100px;
+$footer-year-margin-top: 10px;
+$footer-year-font-size: 12px;
+$footer-year-color: $color-footer-text;
+
+@media (min-height: 900px) {
+  $navbar-brand-img-max-height: 50px;
+  $site-header-main-button-font-size: 16px;
+}

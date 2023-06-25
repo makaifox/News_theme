@@ -7,9 +7,8 @@ o site esta hospedado num servidor gratuito da infinityfree
 link: http://newssystem.lovestoblog.com/
 
 # o tema foi construido utilizando: 
-Html
-Css
-javascript (jquery)
-PHP
+- Html
+- Css
+- javascript (jquery)
+- PHP
 
-funciona independente em qualquer instalação wordpress 

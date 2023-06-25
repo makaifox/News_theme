@@ -1,0 +1,183 @@
+/*
+Theme Name: News_theme
+Author: Yury Trindade
+Description: Tema criado como teste e estudos
+Version: 1.0
+*/
+
+
+@import 'variables';
+
+
+body {
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: $font-size-base;
+  font-family: $font-family-base;
+}
+
+.navbar-toggler {
+  padding: 0.05rem 0.35rem !important;
+}
+
+.Main-button {
+  background-color: $button-background;
+  border-radius: $button-border-radius;
+  box-shadow: $button-box-shadow;
+  color: $button-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-family-base;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: $button-transition;
+  border: 0;
+  font-size: $font-size-large;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.Main-button:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.card {
+  border-radius: $card-border-radius;
+
+  &-body {
+    padding: $card-body-padding;
+
+    &-title {
+      font-size: $card-title-font-size;
+      color: $card-title-color !important;
+      padding: 0.5rem;
+    }
+
+    &-text {
+      font-size: $card-text-font-size;
+    }
+  }
+  &-footer {
+    padding: 0 1.25rem;
+  }
+}
+
+.card-categories {
+  color: $categories-color;
+  background-color: $categories-background-color;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li {
+    display: inline-block;
+    margin-right: $categories-li-margin-right;
+  }
+}
+
+.pagination {
+  margin-top: $pagination-margin-top;
+    width: 100% !important;
+    height: auto;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    left: 0;
+    bottom: 0;
+    background-color: #FFF;
+
+    .page-numbers {
+      padding: 5px 10px;
+      margin: 10px 5px;
+      border: solid 2px #215928;
+      border-radius: 40px;
+      background-color: #215928;
+      color: #FFF;
+    }
+    .current {
+      background-color: #fff;
+      color: #215928;
+    }
+  
+}
+
+.site-header {
+  background-color: $site-header-background-color;
+  padding: $site-header-padding;
+
+  .Main-button {
+    font-size: $site-header-main-button-font-size;
+    padding: 10px;
+  }
+
+  .navbar {
+    &-brand {
+      img {
+        max-height: $navbar-brand-img-max-height;
+      }
+    }
+
+    &-link {
+      color: $navbar-link-color;
+      margin-right: $navbar-link-margin-right;
+    }
+
+    &-inline {
+      .form-control {
+        width: $navbar-inline-form-control-width;
+      }
+    }
+  }
+}
+
+.form-control {
+  border-radius: $form-control-border-radius;
+}
+
+.sidebar {
+  margin-top: $sidebar-margin-top;
+}
+
+.footer {
+  background-color: $footer-background-color;
+  padding: $footer-padding;
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+  
+
+  &-logo {
+    max-width: $footer-logo-max-width;
+  }
+
+  &-year {
+    margin-top: $footer-year-margin-top;
+    font-size: $footer-year-font-size;
+    color: $footer-year-color;
+  }
+}
+
+@media (min-height: 900px) {
+  .navbar {
+    &-brand {
+      img {
+        max-height: $navbar-brand-img-max-height;
+      }
+    }
+  }
+
+  .site-header {
+    .Main-button {
+      font-size: $site-header-main-button-font-size;
+      padding: 10px 20px;
+    }
+  }
+}
